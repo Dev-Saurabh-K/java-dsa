@@ -1,6 +1,6 @@
 
 public class InsertionSort {
-    public static void main(String[] args) {
+    public static void main(StringTest[] args) {
         int arr[] = { 5, 89, 62, 1, 2, 55, 72, 222 };
         int sorted = 1;
         int unsorted = arr.length;

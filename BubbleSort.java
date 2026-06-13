@@ -28,7 +28,7 @@ public class BubbleSort {
         }
     }
 
-    public void main(String[] args) {
+    public void main(StringTest[] args) {
         // iterate();
 
         // obj.iterate();
