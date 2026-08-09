@@ -19,22 +19,16 @@ class Solution {
 
             k++;
         }
-
-        // Copy remaining elements of nums1
         while (i < m) {
             merged_array[k] = nums1[i];
             i++;
             k++;
         }
-
-        // Copy remaining elements of nums2
         while (j < n) {
             merged_array[k] = nums2[j];
             j++;
             k++;
         }
-
-        // Copy merged array back into nums1
         for (int s = 0; s < m + n; s++) {
             nums1[s] = merged_array[s];
         }
