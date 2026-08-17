@@ -5,7 +5,6 @@ class Solution {
         double reversed = 0;
 
         if(y>=2147483647.0 || y<=-2147483648.0) return 0;
-        if(x==1534236469) return 0;
         while(x!=0){
             reversed = reversed*10 + x%10;
             x = x/10;
